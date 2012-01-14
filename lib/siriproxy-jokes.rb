@@ -27,16 +27,16 @@ require 'siri_objects'
 
 class SiriProxy::Plugin::Jokes < SiriProxy::Plugin
   def initialize(config)
-    appname = "SiriProxy-Jokes"
+    appname = "Jokes"
 
   #show plugin status
-  listen_for /^who is the prettiest/i do 
+  listen_for /^prettiest/i do 
   	say "Summer is the prettiest of them all"
   request_completed #always complete your request! Otherwise the phone will "spin" at the user!
   end
 
-  listen_for /^who is the cuttest/i do 
-  	say "umm umm, it's Cooper"
+  listen_for /^cuttest/i do 
+  	say "umm umm, it's me Cooper"
   request_completed #always complete your request! Otherwise the phone will "spin" at the user!
   end  
 
