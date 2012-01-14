@@ -2,13 +2,13 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
-  s.name        = "siriproxy-xbmc"
-  s.version     = "0.1.0" 
-  s.authors     = ["brainwave9"]
+  s.name        = "siriproxy-jokes"
+  s.version     = "0.0.1" 
+  s.authors     = ["jasonuy"]
   s.email       = [""]
   s.homepage    = ""
-  s.summary     = %q{Siri Proxy Plugin to control XBMC}
-  s.description = %q{This is a plugin that allows you to control XBMC using Siri}
+  s.summary     = %q{Siri Proxy Plugin to say funny things}
+  s.description = %q{This is a plugin that allows funny replies from Siri}
 
   s.rubyforge_project = "SiriProxy-XBMC"
 
